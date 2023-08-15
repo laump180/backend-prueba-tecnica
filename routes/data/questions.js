@@ -51,6 +51,17 @@ const quizzes = [
                 { id: 5, answer: "spider-man 3", correct: false },
             ],
           },
+          {
+            id: 4,
+            question: "¿cual es el nombre completo de MJ?",
+            answers: [
+                { id: 1, answer: "Mary Jane  Watson", correct: true },
+                { id: 2, answer: "Mary wane  Watson", correct: false },
+                { id: 3, answer: "Mary Jane  Tanson", correct: false },
+                { id: 4, answer: "Mary Jane  Huston", correct: false },
+                { id: 5, answer: "Mary Jane Parker", correct: false },
+            ],
+          },
       ],
     },
   },
@@ -104,6 +115,150 @@ const quizzes = [
                 { id: 3, answer: "storm", correct: false },
                 { id: 4, answer: "mystique", correct: false },
                 { id: 5, answer: "gambito", correct: false },
+            ],
+          },
+          {
+            id: 5,
+            question: "¿cual es el verdadero nombre del profesor x?",
+            answers: [
+                { id: 1, answer: "Charles x", correct: false },
+                { id: 2, answer: "Charles mason", correct: false },
+                { id: 3, answer: "Charles fransisco", correct: false },
+                { id: 4, answer: "Charles Xavier", correct: true },
+                { id: 5, answer: "Charles w", correct: false },
+            ],
+          },
+      ],
+    },
+  },
+
+  {
+    id: 3,
+    quizz: {
+        name: "Pkemon",
+        img: "https://images7.alphacoders.com/592/592678.jpg",
+        description: "preguntas varias sobre Pokemon",
+        solver: false,
+      questions: [
+        {
+          id: 1,
+          question: "¿En el juego, ¿cuántas evoluciones tiene Eevee?",
+          answers: [
+            { id: 1, answer: "4", correct: false },
+            { id: 2, answer: "5", correct: true },
+            { id: 3, answer: "8", correct: false },
+            { id: 4, answer: "7", correct: false },
+            { id: 5, answer: "2", correct: false },
+          ],
+        },
+        {
+          id: 2,
+          question: " ¿Cómo se llama la evolución de Larvitar?",
+          answers: [
+            { id: 1, answer: "Snorlax", correct: false },
+            { id: 2, answer: "Bayleef", correct: false },
+            { id: 3, answer: "Tyranitar", correct: false },
+            { id: 4, answer: "Pupitar", correct: false },
+            { id: 5, answer: "charizard", correct: true },
+          ],
+        },
+        {
+            id: 3,
+            question: "¿Cuál de estos movimientos nunca ha podido aprender Pikachu en videojuegos?",
+            answers: [
+                { id: 1, answer: "surf", correct: false },
+                { id: 2, answer: "lanzallamas", correct: true },
+                { id: 3, answer: "tacleada de voltios", correct: false },
+                { id: 4, answer: "cola de hierro", correct: false },
+                { id: 5, answer: "rayo", correct: false },
+            ],
+          },
+          {
+            id: 4,
+            question: "Cual es el pokemon inicial de Ash/Satoshi",
+            answers: [
+                { id: 1, answer: "manaphy", correct: false },
+                { id: 2, answer: "wedeel", correct: false },
+                { id: 3, answer: "pikachu", correct: true },
+                { id: 4, answer: "charmander", correct: false },
+                { id: 5, answer: "snorlax", correct: false },
+            ],
+          },
+          {
+            id: 5,
+            question: "Como se llama la evolucion de Dratini?",
+            answers: [
+                { id: 1, answer: "Dragonair", correct: false },
+                { id: 2, answer: "Dragonite", correct: true },
+                { id: 3, answer: "pikachu", correct: false },
+                { id: 4, answer: "charmander", correct: false },
+                { id: 5, answer: "Todos los mencionados", correct: false },
+            ],
+          },
+      ],
+    },
+  },
+  {
+    id: 4,
+    quizz: {
+        name: "Test de anime",
+        img: "https://img3.wallspic.com/crops/6/9/0/4/7/174096/174096-manga_shonen-anime-salto_semanal_de_shnen-naruto_uzumaki-manga-1920x1080.jpg",
+        description: "preguntas varias sobre Anime",
+        solver: false,
+      questions: [
+        {
+          id: 1,
+          question: "¿Qué poder tiene desde su nacimiento Izuku Midoriya en My Hero Academia?",
+          answers: [
+            { id: 1, answer: "one for all", correct: false },
+            { id: 2, answer: "ninguno", correct: true },
+            { id: 3, answer: "All for one", correct: false },
+            { id: 4, answer: "fiego / hielo", correct: false },
+            { id: 5, answer: "impulso", correct: false },
+          ],
+        },
+        {
+          id: 2,
+          question: "¿Cuántos  distritos podemos encontrar en total en Shingeki no kyojin?",
+          answers: [
+            { id: 1, answer: "25", correct: false },
+            { id: 2, answer: "8", correct: false },
+            { id: 3, answer: "13", correct: true },
+            { id: 4, answer: "6", correct: false },
+            { id: 5, answer: "3", correct: false },
+          ],
+        },
+        {
+            id: 3,
+            question: "¿Quién es lider y fundador de SSS Shinda Sekai Sensen en Angel Beats?",
+            answers: [
+                { id: 1, answer: "Yuri nakamura", correct: true },
+                { id: 2, answer: "eri Shinna", correct: false },
+                { id: 3, answer: "miyuki irei", correct: false },
+                { id: 4, answer: "saskuke uchiha", correct: false },
+                { id: 5, answer: "naruto uzumaki", correct: false },
+            ],
+          },
+          {
+            id: 4,
+            question: "¿Cómo se llaman los ojos de un Ghoul, en Tokyo Ghoul?",
+            answers: [
+                { id: 1, answer: "kakugan", correct: true },
+                { id: 2, answer: "bakugan", correct: false },
+                { id: 3, answer: "bokugan", correct: false },
+                { id: 4, answer: "sharinga", correct: false },
+                { id: 5, answer: "biakugan", correct: false },
+            ],
+          },
+          {
+            id: 5,
+            question: "¿Dónde vive Naruto?",
+            answers: [
+                { id: 1, answer: "konoha", correct: true },
+                { id: 2, answer: "alabasta", correct: false },
+                { id: 3, answer: "namek", correct: false },
+                { id: 4, answer: "tokio", correct: false },
+                { id: 5, answer: "shinguku", correct: false },
             ],
           },
       ],
